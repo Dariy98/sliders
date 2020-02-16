@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+  }
+  .carousel-image .slick-prev {
+    background-color: red;
+    display: inline-block;
+  } 
+  .carousel-image .slick-prev:hover {
+      background-color: springgreen;
+  }
+  .carousel-image .slick-next {
+    background-color: red;
+  }
+  .carousel-image .slick-next:hover {
+    background-color: springgreen;
+  }
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+    img {
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+  }

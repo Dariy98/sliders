@@ -1,0 +1,17 @@
+.header {
+    background-color: violet;
+}
+.nav {
+    text-align: center;
+    padding: 25px;
+}
+.nav .nav-item {
+    color: skyblue;
+    font-size: 20px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.nav .nav-item:hover {
+    color: yellow;
+    text-decoration: underline;
+}
